@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000003226_1714596295_pics1.png");
+    position: relative;
+    z-index: -5;
+}
+header{
+    background-color: navy;
+    text-align: center;
+    padding: 50px;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+main{
+    text-align: center;
+    color: white;
+    margin-bottom: 250px;
+}
+#quote{
+    
+    z-index: -2;
+    position: sticky;
+    top: 200px;
+}
+#quote1{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.coach{
+    display: inline-block;
+    height: 250px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-right: 0px;
+    position: relative;
+    z-index: 4;
+    
+}
+.c1{
+    margin-right: 150px;
+}
+.c2{
+    margin-left: 150px;
+}
+img{
+    object-fit: cover;
+    width: 300px;
+    height: 250px;
+}
+p{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+span{
+    font-size: 15px;
+}
+.star{
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 500px;
+    top: 100px;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+.star > h2{
+    margin-top: 20px;
+    color: black;
+}
+.star >img{
+    width: 80%;
+}
+table{
+    width: 80%;
+    position: relative;
+    top: 200px;
+    left: 150px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 100px;
+   
+    
+}
+thead{
+    background-color: navy;
+    height: 50px;
+}
+tbody{
+    background-color: white;
+    color: black;
+    height: 150px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: navy;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}

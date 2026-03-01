@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "Starter Kit",
+			"path": "."
+		},
+		{
+			"name": "CodingNinja",
+			"path": "../../../CodingNinja"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "CodingNinja"
+	}
+}
