@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(45, 45, 45);
+            
+        }
+        .container{
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+        }
+        .circle{
+            position: relative;
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .wave{
+            opacity: 1;
+            position:absolute;
+            width: 100px;
+            height: 100px;
+            border: 0.5px solid white;
+            background-color: transparent;
+            border-radius: 50%;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        
+        }
+        .container:hover .wave{
+            animation-name: wave;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+        }
+        .wave1{
+            animation-delay: 0s;
+        }
+        .wave2{
+            animation-delay: 2s;
+            animation-duration: 4s;
+        }
+        .wave3{
+            animation-delay: 4s;
+            animation-duration: 5s;
+        }
+        @keyframes wave{
+            from{
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+            to{
+                transform: translate(-50%, -50%) scale(2);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circle"></div>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+    </div>
+</body>
+</html>
